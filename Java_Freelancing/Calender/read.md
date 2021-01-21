@@ -1,5 +1,5 @@
 
-###Zelda List	
+# Zelda List	
 
 In assignment set 8, you implemented a class called LinkedElement that could be used to string together an arbitrary number of values. Doing so gave you something like a list, but it was a bit of a pain to always have to be sure to keep the correct head element saved somewhere. If we are going to use a list, there should be a main object to represent the list and provide access to it, just like with an ArrayList. The way it is implemented (with an array or using linked elements, for example) should be an implementation detail clients shouldn't have to worry too much about.
 In this assignment, you will implement such a class that uses linked elements internally. But since there already is a LinkedList in Java, we will call this one ZeldaList.
