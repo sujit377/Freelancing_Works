@@ -15,6 +15,6 @@ the value the element stores, and the other should be a link to the next element
 takes a parameter of type T that will become the value of the new linked element. Then, add the following
 methods:
 
-public T get(int i)
-public void add(T newVal)
-public LinkedElement<T> remove(int i)
+1. public T get(int i)
+2. public void add(T newVal)
+3. public LinkedElement<T> remove(int i)
